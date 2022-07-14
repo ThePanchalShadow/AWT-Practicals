@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    background-color: rgba(20, 113, 220, 0.405);
+}
+.container
+{
+    width: 100%;
+    background-color: burlywood;
+    opacity: .6;
+    padding: 5px;
+    border: 2px solid black;
+}
+.r1c1
+{
+    width: 100%;
+    display: inline-block;
+    border: 2px solid teal;
+    text-align: center;
+}
+.r2c1, .r3c1, .r4c1, .r5c1, .r6c1, .r7c1
+{
+    display: inline-block;
+    margin-left: 41%;
+}
+.r2c2, .r3c2, .r4c2, .r5c2, .r6c2, .r7c2
+{
+    display: inline-block;
+    margin-right: -2px;
+}
+.r8c1
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+#btn
+{
+    width: 100px;
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    
+}
